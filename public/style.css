@@ -67,9 +67,6 @@ flex-direction: column;
       height: auto;
     }
     .wrapper .logo-container .logo-box #head{
-        width: 80vw;
-      }
-    .wrapper .logo-container .logo-box #button{
-          width: 8vw;
+        width: 30vw;
       }
 }
