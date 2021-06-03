@@ -49,6 +49,7 @@ body {
 .wrapper .title-box .inner{
     position:absolute;
     bottom:50%;
+    align-items: center;
 }
 .wrapper .content{
 flex-direction: column;
