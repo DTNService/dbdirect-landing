@@ -22,6 +22,7 @@ body {
     flex-direction: column;
     position: fixed;
     z-index: 1000;
+    align-items: center;
 }
 .wrapper .logo-container .logo-box{
     display: flex;
