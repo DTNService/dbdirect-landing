@@ -68,6 +68,9 @@ flex-direction: column;
       width: 100%;
       height: auto;
     }
+    .wrapper .title-box{
+      margin-top: 41px;
+    }
     .wrapper .logo-container .logo-box #head{
         width: 30vw;
       }
