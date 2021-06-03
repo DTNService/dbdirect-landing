@@ -23,7 +23,23 @@ body {
     position: fixed;
     z-index: 1000;
 }
+.wrapper .logo-container .logo-box{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper .logo-container .logo-box #button{
+    cursor: pointer;
+}
+.wrapper .logo-container .popup{
+    width:35vw;
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
 
+    position: absolute;
+    z-index: 2000;
+}
 .wrapper .title-box {
     margin-top: 150px;
     position: relative;
@@ -38,4 +54,22 @@ body {
 flex-direction: column;
 }
 
-  
+@media (max-width: 1080px) {
+    img {
+      width: 100vw;
+      height: auto;
+    }
+    .wrapper section{
+        width: 100vw;
+      }
+    .wrapper section img {
+      width: 100%;
+      height: auto;
+    }
+    .wrapper .logo-container .logo-box #head{
+        width: 80vw;
+      }
+    .wrapper .logo-container .logo-box #button{
+          width: 8vw;
+      }
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
     <link rel="stylesheet" href="./style.css">
     <title>dbdirect</title>
 </head>
@@ -11,8 +12,10 @@
     <div class="wrapper">
         <section class="logo-container">
             <section class="logo-box">
-                <img src="img/head.png">
-                <img src="img/bu.png">
+                <img id="head" src="img/head.png">
+                <div id="popup_btn">
+                    <a href="#pop"><img id="button" src="img/bu.png"></a>
+                </div>
             </section>
             <img src="img/logo.png">
         </section>
@@ -40,4 +43,3 @@
         </footer>
     </div>
 </body>
-</html>
